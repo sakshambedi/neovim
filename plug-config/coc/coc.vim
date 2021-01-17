@@ -163,7 +163,7 @@ let g:coc_snippet_prev = '<c-k>'
 
 " Use <C-j> for both expand and jump (make expand higher priority.)
 imap <C-j> <Plug>(coc-snippets-expand-jump)
-
+let g:python3_host_prog = '/usr/bin/python3.8'
 
 let g:LanguageClient_serverCommands = {
   \ 'cpp': ['clangd'],
