@@ -98,8 +98,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " " async tasks
     Plug 'skywind3000/asynctasks.vim'
     Plug 'skywind3000/asyncrun.vim'
-    " Swap windows
-    Plug 'wesQ3/vim-windowswap'
     " Markdown Preview
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
     " Easily Create Gists
@@ -121,10 +119,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " git support for Nerdtree 
     Plug 'Xuyuanp/nerdtree-git-plugin'
     " Minimap
-    Plug 'wfxr/minimap.vim'
+    " Plug 'wfxr/minimap.vim'
     " deoPlete-jedi 
     Plug 'deoplete-plugins/deoplete-jedi' 
-    
+    " Ctrl P
+    Plug 'ctrlpvim/ctrlp.vim'    
 
     
     

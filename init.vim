@@ -58,7 +58,8 @@ else
   source $HOME/.config/nvim/plug-config/vimspector.vim
   source $HOME/.config/nvim/plug-config/NerdTree.vim
   source $HOME/.config/nvim/plug-config/nerdtree-git-plugin.vim 
-  source $HOME/.config/nvim/plug-config/minimap.vim 
+  source $HOME/.config/nvim/plug-config/kite.vim  
+  " source $HOME/.config/nvim/plug-config/minimap.vim 
   " source $HOME/.config/nvim/plug-config/ranger.vim 
   " source $HOME/.config/nvim/plug-config/sneak.vim
   " source $HOME/.config/nvim/plug-config/rainbow.vim
