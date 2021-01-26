@@ -1,6 +1,6 @@
 # NVCode
 
-![NVCode pic](./utils/images/nvim.png)
+!
 
 ## Install in one command
 
