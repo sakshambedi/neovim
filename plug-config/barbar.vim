@@ -4,7 +4,7 @@ let bufferline = {}
 let bufferline.shadow = v:true
 
 " Enable/disable icons
-let bufferline.icons = v:false 
+let bufferline.icons = v:true
 
 " Enables/disable clickable tabs
 "  - left-click: go to buffer
@@ -23,7 +23,7 @@ let bufferline.clickable = v:false
 " let bufferline.icon_close_tab_modified = '●'
 
 " Enable/disable close button
-let bufferline.closable = v:false
+let bufferline.closable = v:true 
 
 " If set, the letters for each buffer in buffer-pick mode will be
 " assigned based on their name. Otherwise or in case all letters are

@@ -126,7 +126,7 @@
 
 
   "bookmark.sign": "",
-  "clangd.path": "/home/code-slapper/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd",
+  "clangd.path": "/home/saks/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd",
 
   // stoping yank withint the file
   "yank.enableCompletion": false ,

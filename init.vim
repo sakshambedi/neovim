@@ -54,7 +54,7 @@ else
   " source $HOME/.config/nvim/plug-config/window-swap.vim
   source $HOME/.config/nvim/plug-config/markdown-preview.vim
   source $HOME/.config/nvim/plug-config/neovide.vim
-  luafile $HOME/.config/nvim/lua/plug-colorizer.lua
+  " luafile $HOME/.config/nvim/lua/plug-colorizer.lua
   source $HOME/.config/nvim/plug-config/vimspector.vim
   source $HOME/.config/nvim/plug-config/NerdTree.vim
   source $HOME/.config/nvim/plug-config/nerdtree-git-plugin.vim 
@@ -68,50 +68,12 @@ else
   " source $HOME/.config/nvim/plug-config/xtabline.vim
   " source $HOME/.config/nvim/plug-config/ale.vim
 endif
-source $HOME/.config/nvim/plug-config/quickscope.vim
 
 " Add paths to node and python here
 if !empty(glob("~/.config/nvim/paths.vim"))
   source $HOME/.config/nvim/paths.vim
 endif
 
-
-lua <<EOF
-require'nvim-treesitter.configs'.setup {
-  ensure_installed = {"python"},
-  highlight = {
-    enable = true,
-    disable = { "c", "rust" },
-  },
-  indent = {
-    enable = true
-  }
-}
-EOF
-
-lua << EOF
-local lualine = require('lualine')
-    lualine.theme = 'dracula'
-    lualine.separator = '|'
-    lualine.sections = {
-      lualine_a = { 'mode' },
-      lualine_b = { 'branch' },
-      lualine_c = { 'filename' },
-      lualine_x = { 'encoding', 'fileformat', 'filetype' },
-      lualine_y = { 'progress' },
-      lualine_z = { 'location'  },
-    }
-    lualine.inactive_sections = {
-      lualine_a = {  },
-      lualine_b = {  },
-      lualine_c = { 'filename' },
-      lualine_x = { 'location' },
-      lualine_y = {  },
-      lualine_z = {   }
-    }
-    lualine.extensions = { 'fzf' }
-    lualine.status()
-EOF
 
 
 
