@@ -27,7 +27,14 @@
   "java.implementationsCodeLens.enabled": true,
   "java.completion.enabled": true,
   "java.jdt.ls.vmargs": "-javaagent:/usr/local/share/lombok/lombok.jar",
-  
+  "java.home": "/usr/lib/jvm/java-15-oracle",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-14",
+      "path": "/usr/lib/jvm/java-15-oracle/bin/java",
+      "default": true
+    }
+  ],
   // list
   "list.indicator": ">",
   "list.selectedSignText": " ",
@@ -125,12 +132,13 @@
   "clangd.enabled": true,
 
 
-  "bookmark.sign": "",
-  "clangd.path": "/home/saks/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd",
+  
+  "clangd.path": "/home/code/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd",
 
   // stoping yank withint the file
   "yank.enableCompletion": false ,
-  "coc.source.yank.enabled": false 
+  "coc.source.yank.enabled": false,
+  "java.errors.incompleteClasspath.severity": "ignore"
   //coc-emoji
   /* "coc.source.emoji.filetypes": ["markdown"] */
 
