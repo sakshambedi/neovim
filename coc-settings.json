@@ -27,6 +27,7 @@
   "java.implementationsCodeLens.enabled": true,
   "java.completion.enabled": true,
   "java.jdt.ls.vmargs": "-javaagent:/usr/local/share/lombok/lombok.jar",
+  /* "java.jdt.ls.vmargs": "-javaagent:$HOME/.config/nvim/java-dev/lombok.jar", */
   "java.home": "/usr/lib/jvm/java-15-oracle",
   "java.configuration.runtimes": [
     {

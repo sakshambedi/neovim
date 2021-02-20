@@ -1,5 +1,5 @@
 set iskeyword+=-                      	" treat dash separated words as a word text object"
-set formatoptions-=cro                  " Stop newline continution of comments
+set formatoptions-=cro                  " Stop newline continution of comments 
 
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
@@ -36,7 +36,7 @@ set updatetime=300                      " Faster completion
 set timeoutlen=100                      " By default timeoutlen is 1000 ms
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set incsearch
-set guifont=FiraCode\ JetBrainsMono\ Nerd\ Font
+set guifont=LiterationMono\ FiraCode\ JetBrainsMono\ Nerd\ Font
 set noswapfile
 set cindent
 " New stuff
