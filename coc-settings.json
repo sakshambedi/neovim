@@ -115,7 +115,7 @@
 
   "languageserver": {
     "lua": {
-      "command": "/home/code-slapper/.luambenvs/neovim/bin/lua-lsp",
+      "command": "$HOME/.luambenvs/neovim/bin/lua-lsp",
       "filetypes": ["lua"],
       "trace.server": "verbose"
     }
