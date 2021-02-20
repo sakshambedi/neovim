@@ -131,6 +131,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'hzchirs/vim-material'
     Plug 'ghifarit53/tokyonight-vim'
     Plug 'dracula/vim'
+    Plug 'kaicataldo/material.vim', { 'branch': 'main' }
     " gruvbox 
     " Plug 'morhetz/gruvbox'
     " Plug 'HerringtonDarkholme/yats.vim'

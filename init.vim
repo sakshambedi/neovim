@@ -1,4 +1,4 @@
-" ~/./nvim ~/./nvim    ____      _ __        _
+"    ____      _ __        _
 "   /  _/___  (_) /__   __(_)___ ___
 "   / // __ \/ / __/ | / / / __ `__ \
 " _/ // / / / / /__| |/ / / / / / / /
@@ -35,7 +35,7 @@ else
   source $HOME/.config/nvim/plug-config/codi.vim
   source $HOME/.config/nvim/plug-config/vim-wiki.vim
   " luafile $HOME/.config/nvim/lua/spacelineline.lua
-  luafile $HOME/.config/nvim/lua/treesitter.lua
+  " luafile $HOME/.config/nvim/lua/treesitter.lua
   source $HOME/.config/nvim/plug-config/coc/coc.vim
   source $HOME/.config/nvim/plug-config/coc/coc-extensions.vim
   source $HOME/.config/nvim/plug-config/easymotion.vim
@@ -68,6 +68,17 @@ else
   " source $HOME/.config/nvim/plug-config/xtabline.vim
   " source $HOME/.config/nvim/plug-config/ale.vim
 endif
+
+lua <<EOF
+require'nvim-treesitter.configs'.setup {
+  ensure_installed = "maintained", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
+  highlight = {
+    enable = true,              -- false will disable the whole extension
+    disable = { "c", "rust" },  -- list of language that will be disabled
+  },
+}
+EOF
+
 
 " Add paths to node and python here
 if !empty(glob("~/.config/nvim/paths.vim"))
