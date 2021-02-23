@@ -113,12 +113,12 @@
   /*   "v": "open:vsplit" */
   /* }, */
 
-  "languageserver": {
-    "lua": {
-      "command": "$HOME/.luambenvs/neovim/bin/lua-lsp",
-      "filetypes": ["lua"],
-      "trace.server": "verbose"
-    }
+  /* "languageserver": { */
+  /*   "lua": { */
+  /*     "command": "$HOME/.luambenvs/neovim/bin/lua-lsp", */
+  /*     "filetypes": ["lua"], */
+  /*     "trace.server": "verbose" */
+  /*   } */
     /* , */
     
     /* // c using clang + coc-clangd */
@@ -127,7 +127,7 @@
     /* "rootPatterns": ["compile_flags.txt", "compile_commands.json"], */
     /* "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"] */
     /* } */
-  },
+  /* }, */
   
   // clangd settings
   "clangd.enabled": true,

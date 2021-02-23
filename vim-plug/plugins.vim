@@ -55,8 +55,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Status Line
-    " Plug 'glepnir/galaxyline.nvim'
-    Plug 'hoob3rt/lualine.nvim'
+    Plug 'glepnir/galaxyline.nvim'
+    " Plug 'hoob3rt/lualine.nvim'
     Plug 'kevinhwang91/rnvimr'
     " FZF
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
